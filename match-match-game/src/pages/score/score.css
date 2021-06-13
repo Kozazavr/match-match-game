@@ -1,0 +1,86 @@
+.score__title-page {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: #333333;
+  margin: 38px 46px 24px;
+}
+
+.score__table {
+  list-style: none;
+}
+
+.list-item {
+  border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+  width: 846px;
+  height: 63px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0px 46px;
+}
+
+.user__container {
+  display: flex;
+}
+
+.container__info {
+  margin-left: 6px;
+}
+
+.score__container {
+  display: flex;
+  min-width: 73px;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.name,
+.lastname {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+  color: #333333;
+  display: inline;
+}
+
+.name,
+.lastname,
+.email {
+  margin: 0px;
+}
+
+.email {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.score__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.score {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #2196f3;
+}

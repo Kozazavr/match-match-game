@@ -1,0 +1,60 @@
+.game-field {
+  max-width: 944px;
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+  align-content: flex-end;
+  margin-left: 144px;
+  perspective: 2000px;
+}
+
+.card-container {
+  width: 158px;
+  height: 158px;
+  border-radius: 3px;
+  position: relative;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  transform-style: preserve-3d;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+
+.card-image,
+.card-cover {
+  position: absolute;
+  width: 158px;
+  height: 158px;
+  object-fit: cover;
+  border-radius: 3px;
+  backface-visibility: hidden;
+}
+
+.card-image {
+  transform: rotateY(180deg);
+}
+
+.card-container:active {
+  transform: scale(0.95);
+  transition: transform 0.2s;
+}
+
+.card-container.flip {
+  transform: rotateY(180deg);
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.card-right {
+  box-shadow: 5px 5px 5px 5px rgb(116, 194, 116);
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.card-wrong {
+  box-shadow: 5px 5px 5px 5px rgb(192, 40, 40);
+  box-sizing: border-box;
+  border-radius: 3px;
+}

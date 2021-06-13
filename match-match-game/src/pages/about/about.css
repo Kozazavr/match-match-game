@@ -1,0 +1,112 @@
+.about__title {
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 36px;
+  flex-direction: column;
+}
+
+.about__container {
+  min-height: 639px;
+  max-width: 780px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__list-item {
+  list-style: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+  max-width: 360px;
+  padding: 16px;
+  min-height: 132px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.about__list-item:first-child {
+  min-height: 230px;
+}
+
+.about__list-item:last-child {
+  min-height: 240px;
+}
+
+.about__list {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about__list-number {
+  width: 40px;
+  height: 40px;
+  background-color: #2196f3;
+  border-radius: 50%;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12),
+    0px 2px 4px rgba(0, 0, 0, 0.14);
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__list-text {
+  margin: 0px 0px 0px 56px;
+}
+
+.about__number {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+}
+
+.about__form-preview {
+  background-image: url('../../assets/about__form-preview.png');
+  min-width: 302px;
+  min-height: 218px;
+  background-repeat: no-repeat;
+  align-self: flex-end;
+}
+
+.about__preview-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about__setting-preview {
+  background-image: url('../../assets/about__setting-preview.png');
+  min-width: 116px;
+  min-height: 73px;
+  background-repeat: no-repeat;
+  align-self: flex-end;
+  margin-bottom: 47px;
+}
+
+.about__game-preview {
+  background-image: url('../../assets/about__game-preview.png');
+  min-width: 330px;
+  min-height: 240px;
+  background-repeat: no-repeat;
+  align-self: flex-end;
+}

@@ -1,0 +1,20 @@
+@import url('./components/header/header.css');
+@import url('./components/popup/popup.css');
+@import url('./pages/game/game.css');
+@import url('./pages/game/timer.css');
+
+.main {
+  max-width: 1000px;
+  min-height: 802px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin: 33px auto 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.background__white {
+  background-color: #ffffff;
+  padding: 0px;
+}

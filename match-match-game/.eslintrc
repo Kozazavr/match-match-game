@@ -1,0 +1,29 @@
+{
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "airbnb-typescript/base",
+    "plugin:@typescript-eslint/eslint-recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "es2021": true,
+    "browser": true
+  },
+  "rules": {
+    "no-underscore-dangle": 0,
+    "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"], //цикл for..in разрешает
+    "@typescript-eslint/no-use-before-define": [
+      "error",
+      { "functions": false }
+    ],  //всплытие функций, разрешает использовать до объявления
+    "no-unused-expressions": "off",
+    "@typescript-eslint/no-unused-expressions": 0, //позволяет выражение в функции
+    "global-require": 0,//позволение require картинки
+    "prefer-template": 0,//конкатинацию строк разрешила
+    "import/no-dynamic-require": 0//gameFiled разрешила в реквайред строковый литерал, точнее его отсутвие
+  }
+}
